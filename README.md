@@ -39,5 +39,6 @@ The microservice endpoint responds with JSON data containing information about w
 Once a response is received, the then block in the example above allows you to handle the adta received. The example logs the received data to the console.
 
 
-![Screen Shot 2023-11-13 at 10 33 13 PM](https://github.com/ricqosu/email-validator-microservice/assets/114196925/b201829e-67f2-48ca-a884-20d66f4c818f)
+![Screen Shot 2023-11-13 at 10 44 06 PM](https://github.com/ricqosu/email-validator-microservice/assets/114196925/a88e6be6-c4a4-425a-99ed-738433175f99)
+
 
