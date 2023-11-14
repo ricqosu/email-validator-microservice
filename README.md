@@ -28,7 +28,7 @@ axios.post(`localhost:3005/validate-email`, emailData)
   })
 ```
 
-***RECEIEVE data from the microservice***
+***RECEIVE data from the microservice***
 
 The microservice endpoint responds with JSON data containing information about whether the provided email is valid or not. 
 
@@ -38,7 +38,7 @@ The microservice endpoint responds with JSON data containing information about w
 }
 ```
 
-Once a response is received, the then block in the example above allows you to handle the adta received. The example logs the received data to the console.
+Once a response is received, the then block in the example above allows you to handle the data received. The example logs the received data to the console.
 
 
 ![Screen Shot 2023-11-13 at 10 44 06 PM](https://github.com/ricqosu/email-validator-microservice/assets/114196925/a88e6be6-c4a4-425a-99ed-738433175f99)
