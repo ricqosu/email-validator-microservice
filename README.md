@@ -1,4 +1,4 @@
-# email-validator-microservice
+# CS361 - email-validator-microservice
 
 A microservice one can use to validate emails.
 
