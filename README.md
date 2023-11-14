@@ -11,6 +11,7 @@ A microservice one can use to validate emails.
 5) Once done, you can now make POST requests to `localhost:3005/validate-email`
 
 **REQUEST data from the microservice**
+
 To request data from the microservice endpoint (`\validate-email`), you can send a POST request with the email data in the body. Here's an example using Axios:
 
 ```
@@ -28,6 +29,7 @@ axios.post(`localhost:3005/validate-email`, emailData)
 ```
 
 ***RECEIEVE data from the microservice***
+
 The microservice endpoint responds with JSON data containing information about whether the provided email is valid or not. 
 
 ```
