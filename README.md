@@ -12,7 +12,7 @@ A microservice one can use to validate emails.
 
 **REQUEST data from the microservice**
 
-To request data from the microservice endpoint (`\validate-email`), you can send a POST request with the email data in the body. Here's an example using Axios:
+To request data from the microservice endpoint (`/validate-email`), you can send a POST request with the email data in the body. Here's an example using Axios:
 
 ```
 const emailData = {
@@ -41,6 +41,7 @@ The microservice endpoint responds with JSON data containing information about w
 Once a response is received, the then block in the example above allows you to handle the data received. The example logs the received data to the console.
 
 
-![Screen Shot 2023-11-13 at 10 44 06 PM](https://github.com/ricqosu/email-validator-microservice/assets/114196925/a88e6be6-c4a4-425a-99ed-738433175f99)
+![Screen Shot 2023-11-13 at 10 33 13 PM](https://github.com/ricqosu/email-validator-microservice/assets/114196925/d29b92ec-b038-40bd-ad82-31ad6e5aa557)
+
 
 
