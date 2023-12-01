@@ -1,12 +1,13 @@
-const express = require("express");
-
+const express = require('express');
 const app = express();
+const cors = require('cors');
 
 const PORT = 3005;
 
 app.use(express.json());
+app.use(cors());
 
-app.post("/validate-email", (req, res) => {
+app.post('/validate-email', (req, res) => {
   const email = req.body.email;
 
   // Email Pattern
