@@ -16,10 +16,10 @@ To request data from the microservice endpoint (`/validate-email`), you can send
 
 ```
 const emailData = {
-  email = 'example@email.com'
+  email: 'example@email.com'
 }
 
-axios.post(`localhost:3005/validate-email`, emailData)
+axios.post(`http://localhost:3005/validate-email`, emailData)
   .then(response => {
     console.log(response)
   }
